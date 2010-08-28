@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Status">
+		<CheckBoxPreference android:title="Enable Gotifier"
+			android:defaultValue="false" android:key="checkboxEnabled" android:summary="Use notification led for missed calls" />
+		<CheckBoxPreference android:title="Start at boot"
+			android:defaultValue="false" android:key="checkboxBoot" android:summary="Start notification service at boot" />
+		
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Led Values">
+		<CheckBoxPreference android:title="Enable Red LED" android:defaultValue="false" android:key="checkboxRed" />
+		<CheckBoxPreference android:title="Enable Green LED" android:defaultValue="false" android:key="checkboxGreen" />
+		<CheckBoxPreference android:title="Enable Blue LED" android:defaultValue="false" android:key="checkboxBlue" />
+	</PreferenceCategory>
+</PreferenceScreen>
